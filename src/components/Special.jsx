@@ -62,7 +62,7 @@ const Special = () => {
 
         {/* Button */}
         <div className="mt-10">
-          <button className="bg-yellow-400 text-green-900 px-6 py-2 rounded-md shadow-md hover:bg-yellow-500 transition">
+          <button className="bg-yellow-400 font-bold text-green-900 px-6 py-2 rounded-md shadow-md hover:bg-yellow-500 transition">
             View More
           </button>
         </div>

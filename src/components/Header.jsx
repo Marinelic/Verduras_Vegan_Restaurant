@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
       <header className='bg-green-950 text-white px-8 py-6 flex items-center justify-between '>
-        <h1 className='text-2xl font-bold tracking-widest uppercase text-white-400 font-ledger'>
+        <h1 className='text-2xl font-bold tracking-widest uppercase text-white-400'>
             VERDURAS
         </h1>
 

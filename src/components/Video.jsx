@@ -1,9 +1,10 @@
 import React from "react";
 import { Play } from "lucide-react"; 
+import bgImage from '../assets/bg.jpg';
 
 const RestaurantVideo = () => {
   return (
-    <section className="relative w-full bg-[#0b2d0b] py-16 flex justify-center items-center">
+    <section style={{ backgroundImage: `url(${bgImage})` }} className="relative w-full py-16 flex justify-center items-center bg-no-repeat bg-cover bg-center">
       {/* Video Container */}
       <div className="relative w-[90%] md:w-[80%] lg:w-[70%] aspect-video overflow-hidden rounded-lg shadow-lg">
         {/* Background Image */}
