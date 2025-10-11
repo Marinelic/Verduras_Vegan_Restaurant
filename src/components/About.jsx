@@ -6,7 +6,7 @@ const About = () => {
   return (
         <div  className="bg-[#f5f5f0] flex items-center justify-center min-h-screen">
             <section className="w-full max-w-6xl mx-auto px-6 py-20 text-center md:text-left relative">
-                <div className="grid md:grid-cols-3 items-center gap-8">
+                <div className="grid md:grid-cols-3 items-center gap-7">
 
                     {/* // About Us */}
                     <div className="md:col-span-1 flex flex-col items-center md:items-end text-center md:text-right">
@@ -25,7 +25,7 @@ const About = () => {
                     <div className="flex justify-center md:justify-center">
                         <img src={Carrot}
                             alt="Carrot" 
-                            className="w-24 md:w-70"/>
+                            className="w-100 max-w-full lg-w:70"/>
                     </div>
 
                     {/* // Our History */}

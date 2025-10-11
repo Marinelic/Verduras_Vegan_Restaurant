@@ -5,13 +5,13 @@ const Hero = () => {
   return (
     <div>
        <section className="scroll-m-20 bg-green-950 text-yellow-200 px-8 py-20 flex flex-col md:flex-row items-center justify-between">
-        <div className='container mx-auto lg:px-50 px-10 flex flex-col-reverse lg:flex-row items-center justify-between gap-10'> 
+        <div className='container mx-auto lg:px-40 px-10 flex flex-col-reverse lg:flex-row items-center justify-between gap-10'> 
         {/* Left text */}
         <div className="max-w-lg space-y-6">
           <h2 className="text-4xl md:text-5xl font-ledger leading-snug">
             The Best <br /> Combination <br /> Of Colors In One Plate
           </h2>
-          <p className="text-gray-200 text-sm lg:text-lg">
+          <p className="text-gray-200 text-base lg:text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
             pharetra adipiscing ultrices vulputate posuere tristique. In sed
             odio nec aliquet eu proin mauris et.

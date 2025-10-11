@@ -17,12 +17,12 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-      <header className='bg-green-950 text-white px-8 py-6 flex items-center justify-between'>
-        <h1 className='text-xl font-bold tracking-widest uppercase text-yellow-400 font-ledger'>
+      <header className='bg-green-950 text-white px-8 py-6 flex items-center justify-between '>
+        <h1 className='text-2xl font-bold tracking-widest uppercase text-white-400 font-ledger'>
             VERDURAS
         </h1>
 
-        <nav className='hidden md:flex space-x-8 text-sm'>
+        <nav className='hidden md:flex space-x-8 text-base'>
             {navList.map((link) => (
                 <a 
                     href={link.href}
@@ -35,7 +35,7 @@ const Header = () => {
 
           <div className='hidden md:flex items-center space-x-4'>
             <PhoneCall className='text-amber-400' />
-            <a href="#" className='hidden md:inline-block text-sm hover:text-yellow-400'>
+            <a href="#" className='hidden md:inline-block text-base hover:text-yellow-400'>
                 Book Table
             </a>
           </div>  
