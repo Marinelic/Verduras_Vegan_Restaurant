@@ -31,14 +31,14 @@ const Special = () => {
         <div
           className="bg-[url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=60')]
           bg-cover bg-center bg-no-repeat bg-blend-multiply bg-green-900/70
-          rounded-lg p-10 grid md:grid-cols-2 gap-8"
+          rounded-lg p-20 grid md:grid-cols-2 gap-20"
         >
           {/* Left Side */}
           <div className="flex flex-col space-y-5">
             {leftMenu.map((item, i) => (
                 <div
                   key={i}
-                  className="flex justify-between items-center border-b border-yellow-100/30 pb-2"
+                  className="flex justify-between items-center border-b border-yellow-100/50 pb-2"
                 >
                     <span className="text-yellow-100 font-light">{item.name}</span>
                     <span className="text-yellow-100">{item.price}</span>
@@ -51,7 +51,7 @@ const Special = () => {
             {rightMenu.map((item, i) => (
                 <div
                   key={i}
-                  className="flex justify-between items-center border-b border-yellow-100/30 pb-2"
+                  className="flex justify-between items-center border-b border-yellow-100/50 pb-2"
                 >
                     <span className="text-yellow-100 font-light">{item.name}</span>
                     <span className="text-yellow-100">{item.price}</span>

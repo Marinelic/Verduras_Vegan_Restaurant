@@ -1,10 +1,11 @@
 import React from 'react'
 import Carrot from '../assets/carrot.png';
+import bgImage from '../assets/bg.jpg';
 
 
 const About = () => {
   return (
-        <div  className="bg-[#f5f5f0] flex items-center justify-center min-h-screen">
+        <div style={{ backgroundImage: `url(${bgImage})` }} className="flex items-center justify-center min-h-screen bg-no-repeat bg-cover bg-center">
             <section className="w-full max-w-6xl mx-auto px-6 py-20 text-center md:text-left relative">
                 <div className="grid md:grid-cols-3 items-center gap-7">
 
