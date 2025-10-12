@@ -3,6 +3,8 @@ import Hero from './components/Hero.jsx';
 import About from './components/About.jsx';
 import Special from './components/Special.jsx';
 import Video from './components/Video.jsx';
+import GallerySection from './components/GallerySection.jsx';
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
        <About />
        <Special />
        <Video />
+       <GallerySection />
     </div>
   )
 }
