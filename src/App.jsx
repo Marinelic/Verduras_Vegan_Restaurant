@@ -4,19 +4,37 @@ import About from './components/About.jsx';
 import Special from './components/Special.jsx';
 import Video from './components/Video.jsx';
 import GallerySection from './components/GallerySection.jsx';
+import ScrollSection from './components/ScrollSection.jsx';
 
 
 function App() {
   return (
     <div>
-       <Header />
-       <Hero />
-       <About />
-       <Special />
-       <Video />
-       <GallerySection />
+      <Header />
+    
+      <ScrollSection>
+        <Hero />
+      </ScrollSection>
+
+      <ScrollSection>
+        <About />
+      </ScrollSection>
+
+      <ScrollSection>
+        <Special />
+      </ScrollSection>
+
+      <ScrollSection>
+        <Video />
+      </ScrollSection>
+
+      <ScrollSection>
+        <GallerySection />
+      </ScrollSection>
     </div>
-  )
+
+    
+  ) 
 }
 
 export default App

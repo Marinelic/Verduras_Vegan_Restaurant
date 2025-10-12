@@ -17,3 +17,11 @@ body {
 .animate-scroll:hover {
   animation-play-state: paused;
 }
+
+.transform {
+  scale: 1;
+}
+.visible {
+  scale: 1;
+}
+
