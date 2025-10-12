@@ -62,7 +62,7 @@ const Header = () => {
               <a
                 href={link.href}
                 key={link.href}
-                className="block py-2 text-lg font-bold hover:text-green-950 w-full text-center"
+                className="block py-1 text-lg font-bold hover:text-green-950 w-full text-center"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}
