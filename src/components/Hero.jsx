@@ -3,7 +3,7 @@ import bgVideo from '../assets/bgVideo.mp4';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden text-yellow-200 px-20 pt-20">
+    <section id='home' className="relative min-h-screen flex items-center justify-center overflow-hidden text-yellow-200 px-20 pt-20">
 
       {/* Background Video */}
       <video
@@ -31,11 +31,9 @@ const Hero = () => {
           Experience the vibrant flavors of our vegan dishes, crafted with fresh, colorful ingredients that delight both the eyes and the palate.
         </p>
         
-        <button className="bg-yellow-400 font-bold text-green-900 text-sm sm:text-base px-5 py-4 sm:px-6 sm:py-3 lg:px-8 lg:py-3 rounded-md shadow-md hover:bg-yellow-500 transition">
-          View Menu
-        </button>
-
-    
+        <a href="#contact" className="bg-yellow-400 font-bold text-green-900 text-sm sm:text-base px-5 py-4 sm:px-6 sm:py-3 lg:px-8 lg:py-3 rounded-md shadow-md hover:bg-yellow-500 transition inline-block">
+          Book A Table
+        </a>
       </div>
 
     </section>

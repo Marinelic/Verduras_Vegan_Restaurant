@@ -4,11 +4,11 @@ body {
   font-family: 'Viaoda Libre', cursive;
 }
 
-
 /* Hide scrollbar */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -21,11 +21,10 @@ body {
 .transform {
   scale: 1;
 }
+
 .visible {
   scale: 1;
 }
-
-
 
 html {
   scroll-behavior: smooth;

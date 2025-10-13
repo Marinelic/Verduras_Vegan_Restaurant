@@ -40,7 +40,7 @@ const GallerySection = () => {
   }, []);
 
   return (
-    <section className="bg-[#0b2d0b] py-20 text-yellow-100 overflow-hidden relative">
+    <section id="gallery" className="bg-[#0b2d0b] py-20 text-yellow-100 overflow-hidden relative">
       <div className="max-w-[90rem] mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-start lg:items-center gap-10">
           {/* Left side - text */}

@@ -20,7 +20,7 @@ const Special = () => {
 
 
   return (
-    <section className="bg-[#0b2d0b] py-20 text-center text-yellow-100">
+    <section id="menu" className="bg-[#0b2d0b] py-20 text-center text-yellow-100">
       <div className="max-w-6xl mx-auto px-6">
 
         <h2 className="text-3xl md:text-4xl font-serif text-yellow-200 mb-10">

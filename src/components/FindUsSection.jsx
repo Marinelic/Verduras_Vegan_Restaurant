@@ -26,7 +26,7 @@ const FindUsSection = () => {
         <div className="order-1 md:order-2 md:ml-12 text-center">
           <h2 className="text-3xl md:text-4xl font-serif mb-4">Find Us</h2>
           <p className="text-lg mb-2">
-            Green Street, 2817 Madison, WI 53711
+            Green Street, 2817 Madison, 53711
           </p>
 
           <div className="my-6">

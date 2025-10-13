@@ -13,7 +13,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="relative bg-green-950 text-white px-8 py-6 flex items-center justify-between">
+    <header className="fixed top-0 left-0 w-full z-50 bg-green-950 text-white px-8 py-6 flex items-center justify-between">
       {/* Logo */}
       <h1 className="text-2xl font-bold tracking-widest uppercase">
         VERDURAS
@@ -39,7 +39,7 @@ const Header = () => {
           href="#contact"
           className="hidden md:inline-block text-base hover:text-yellow-400"
         >
-          Book Table
+          Book a Table
         </a>
       </div>
 
@@ -62,7 +62,7 @@ const Header = () => {
               <a
                 href={link.href}
                 key={link.href}
-                className="block py-1 text-lg font-bold hover:text-green-950 w-full text-center"
+                className="block py-0 text-lg font-bold hover:text-green-950 w-full text-center"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}

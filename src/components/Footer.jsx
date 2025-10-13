@@ -41,8 +41,8 @@ const Footer = () => {
         {/* Column 3: Contact Info */}
         <div className="text-center mr-13">
           <h4 className="text-xl font-semibold text-yellow-500 mb-3 ml-6">Contact Us</h4>
-          <p className="text-lg text-green-900 mb-2 ml-6">1559 N Milwaukee Ave, Chicago, IL 60622</p>
-          <p className="text-lg text-green-900 mb-1 ml-6">Email: info@verdurascafe.com</p>
+          <p className="text-lg text-green-900 mb-2 ml-6">Green Street, 2817 Madison, 53711</p>
+          <p className="text-lg text-green-900 mb-1 ml-6">Email: info@verduras.com</p>
           <p className="text-lg text-green-900 mb-4 ml-6">Phone: (312) 555-0134</p>
 
           {/* Social icons */}
