@@ -6,6 +6,7 @@ import Video from './components/Video.jsx';
 import GallerySection from './components/GallerySection.jsx';
 import ScrollSection from './components/ScrollSection.jsx';
 import FindUsSection from './components/FindUsSection.jsx';
+import ContactFormSection from './components/ContactFormSection.jsx';
 
 
 function App() {
@@ -35,6 +36,10 @@ function App() {
 
       <ScrollSection>
         <FindUsSection />
+      </ScrollSection>
+
+      <ScrollSection>
+        <ContactFormSection  />
       </ScrollSection>
     </div>
   ) 
