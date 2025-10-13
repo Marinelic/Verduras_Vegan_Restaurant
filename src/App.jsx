@@ -7,6 +7,7 @@ import GallerySection from './components/GallerySection.jsx';
 import ScrollSection from './components/ScrollSection.jsx';
 import FindUsSection from './components/FindUsSection.jsx';
 import ContactFormSection from './components/ContactFormSection.jsx';
+import Footer from './components/Footer.jsx';
 
 
 function App() {
@@ -40,6 +41,10 @@ function App() {
 
       <ScrollSection>
         <ContactFormSection  />
+      </ScrollSection>
+
+      <ScrollSection>
+        <Footer />
       </ScrollSection>
     </div>
   ) 
