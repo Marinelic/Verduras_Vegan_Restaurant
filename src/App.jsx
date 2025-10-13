@@ -8,6 +8,7 @@ import ScrollSection from './components/ScrollSection.jsx';
 import FindUsSection from './components/FindUsSection.jsx';
 import ContactFormSection from './components/ContactFormSection.jsx';
 import Footer from './components/Footer.jsx';
+import BackToTopButton from './components/BackToTopButton.jsx';
 
 
 function App() {
@@ -46,6 +47,8 @@ function App() {
       <ScrollSection>
         <Footer />
       </ScrollSection>
+
+      <BackToTopButton />
     </div>
   ) 
 }

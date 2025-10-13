@@ -36,7 +36,7 @@ const Header = () => {
       <div className="hidden md:flex items-center space-x-4">
         <PhoneCall className="text-amber-400" />
         <a
-          href="#"
+          href="#contact"
           className="hidden md:inline-block text-base hover:text-yellow-400"
         >
           Book Table

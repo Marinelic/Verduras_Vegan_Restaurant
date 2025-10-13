@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactFormSection = () => {
   return (
-    <section className="bg-[#0b2d0b] py-20 text-yellow-100">
+    <section id="contact" className="bg-[#0b2d0b] py-20 text-yellow-100">
       <div className="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
         {/* Left Side - Text */}

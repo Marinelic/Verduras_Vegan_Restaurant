@@ -4,11 +4,11 @@ import bgImage from "../assets/bg.jpg";
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundImage: `url(${bgImage})` }} className="bg-[#0b2d0b] text-[#f5f5f0] py-12 mt-10 bg-no-repeat bg-cover bg-center">
+    <footer style={{ backgroundImage: `url(${bgImage})` }} className="text-[#f5f5f0] py-12 bg-no-repeat bg-cover bg-center">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10">
         
         {/* Column 1: Brand */}
-        <div className="mr-10">
+        <div className="mr-10 text-center">
           <h3 className="text-2xl font-serif text-yellow-500 mb-3">VERDURAS</h3>
           <p className="text-lg leading-relaxed text-green-900">
             Experience nature on your plate. Verduras brings you vibrant vegan
@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
 
         {/* Column 2: Quick Links */}
-        <div className="text-center">
+        <div className="text-center mr-10">
           <h4 className="text-xl font-semibold text-yellow-500 mb-3">Quick Links</h4>
           <ul className="space-y-3 text-lg text-green-900">
             <li>
@@ -39,14 +39,14 @@ const Footer = () => {
         </div>
 
         {/* Column 3: Contact Info */}
-        <div className="mx-10">
-          <h4 className="text-xl font-semibold text-yellow-500 mb-3">Contact Us</h4>
-          <p className="text-lg text-green-900 mb-2">1559 N Milwaukee Ave, Chicago, IL 60622</p>
-          <p className="text-lg text-green-900 mb-1">Email: info@verdurascafe.com</p>
-          <p className="text-lg text-green-900 mb-4">Phone: (312) 555-0134</p>
+        <div className="text-center mr-13">
+          <h4 className="text-xl font-semibold text-yellow-500 mb-3 ml-6">Contact Us</h4>
+          <p className="text-lg text-green-900 mb-2 ml-6">1559 N Milwaukee Ave, Chicago, IL 60622</p>
+          <p className="text-lg text-green-900 mb-1 ml-6">Email: info@verdurascafe.com</p>
+          <p className="text-lg text-green-900 mb-4 ml-6">Phone: (312) 555-0134</p>
 
           {/* Social icons */}
-          <div className="flex space-x-4 mt-6">
+          <div className="flex space-x-7 mt-6 mx-16">
             <a
               href="#"
               className="p-2 rounded-full bg-green-900 hover:bg-yellow-400 hover:text-green-900 transition"
