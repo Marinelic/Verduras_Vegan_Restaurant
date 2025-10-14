@@ -18,7 +18,7 @@ const ContactFormSection = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setStatus("Message sent successfully! ✅");
+          setStatus("Message sent successfully! ❤️");
           form.current.reset();
         },
         (error) => {
