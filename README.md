@@ -1,16 +1,17 @@
 Welcome to Verduras, a modern and elegant vegan restaurant website built with React and Tailwind CSS. This is my first portfolio project, 
 showcasing responsive design, smooth user experience, and interactive features like a contact form.
 
-FWATURES
-Fully responsive design for mobile, tablet, and desktop
+FEATURES
 
-Interactive contact form integrated with EmailJS
+- Fully responsive design for mobile, tablet, and desktop
 
-Elegant color scheme inspired by fresh vegetables and nature
+- Interactive contact form integrated with EmailJS
 
-Easy-to-read typography and modern layout
+- Elegant color scheme inspired by fresh vegetables and nature
 
-Smooth animations and hover effects
+- Easy-to-read typography and modern layout
+
+- Smooth animations and hover effects
 
 Tech Stack
 Frontend: React.js, Tailwind CSS
