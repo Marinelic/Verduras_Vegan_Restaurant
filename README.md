@@ -4,18 +4,15 @@ showcasing responsive design, smooth user experience, and interactive features l
 FEATURES
 
 - Fully responsive design for mobile, tablet, and desktop
-
 - Interactive contact form integrated with EmailJS
-
 - Elegant color scheme inspired by fresh vegetables and nature
-
 - Easy-to-read typography and modern layout
-
 - Smooth animations and hover effects
 
-Tech Stack
-Frontend: React.js, Tailwind CSS
-Forms / Email: EmailJS
-Deployment: Vercel
+TECH STACK
+
+- Frontend: React.js, Tailwind CSS
+- Forms / Email: EmailJS
+- Deployment: Vercel
 
 Live Demo - https://verduras-vegan-restaurant-8vfm.vercel.app/
