@@ -3,7 +3,7 @@ import bgVideo from '../assets/bgVideo.mp4';
 
 const Hero = () => {
   return (
-    <section id='home' className="relative min-h-screen flex items-center justify-center overflow-hidden text-yellow-200 px-20 pt-20">
+    <section id='home' className="relative min-h-screen flex items-center justify-center overflow-hidden text-yellow-200 px-6 sm:px-10 md:px-20 pt-28 sm:pt-32 md:pt-20">
 
       {/* Background Video */}
       <video
