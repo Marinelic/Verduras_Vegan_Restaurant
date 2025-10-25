@@ -97,6 +97,9 @@ const ContactFormSection = () => {
                   {status && (
             <p className="text-center mt-4 text-sm text-yellow-300">{status}</p>
           )}
+
+          <input type="hidden" name="project" value="Vegan Restaurant" />
+
         </form>
       </div>
     </section>
